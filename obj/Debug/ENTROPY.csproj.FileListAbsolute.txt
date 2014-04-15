@@ -1,0 +1,2 @@
+C:\Users\zdayatk\Documents\GitHub\vs2013\ENTROPY\bin\Debug\ENTROPY.exe.config
+C:\Users\zdayatk\Documents\GitHub\ENTROPY\bin\Debug\ENTROPY.exe.config
