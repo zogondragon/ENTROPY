@@ -8,16 +8,46 @@ by zogondragon
 ENTROPY is simple but rich, short but dynamic Turn-Based Strategy(TBS) game.
 
 2. Basic Concept
+The game board consists of various hexagonal tiles. Each tile represents the terrain, 
+and the tiles can be changed into another type of terrain in the middle of the game.
+
+A unit is represented as a card. Each player(let's assume 2-player game) can choose 
+which unit to summon on game board from the common unit pool. This common unit pool
+mechanism resembles Texas Hold'em poker. Each player should analyze the initial 
+setup of game board and the common unit pool, and strategically plan his choice of 
+units.
+
+The background of each unit can be diverse. Something like "Red Dragon vs M1A2 Abrams"
+or "Ninja vs T-Rex" can happen in this game. Settings like European medieval fantasy, 
+cold-war era military, science fiction, and dinosaur ages are incorporated in this game. 
+To avoid copyright issues, however, we cannot use trademarks in unit name.
+
+The victory condition is not defined yet. (TODO).
 
 3. Terrain
-
-4. Unit
-
-5. Turn Mechanism
-ENTROPY incorporates
 Hex 맵에 유닛 하나를 추가할 경우 다른 지형 하나가 random 하게 변하게 하면 재미있을 것 같다. 
-차원을 넘어서 유닛을 불러 오는 설정이니 유닛 하나가 들어올 때마다 알 수 없는 요동이 일어난다는 것이
-랜덤성을 높여서 흥미로울 수 있다.
-
+차원을 넘어서 유닛을 불러 오는 설정이니 유닛 하나가 들어올 때마다 알 수 없는 요동이 일어나 
+지형을 변화시킨다는 식으로 설명할 수 있다.
+이 요소는 유닛의 전투에 관련된 능력 뿐만 아니라 지형 설정에 관련된 능력 또한 
+중요한 전략적 요소로 작용하게 할 수 있어서 흥미로울 수 있다.
 지형은 여러 종류가 있어야 하고 유닛들이 어떤 지형에서 동작할 수 있는지, 어떤 무기가 어떤 지형을
 공격할 수 있는지에 대한 설정도 있어야 할 것이다.
+
+4. Unit
+유닛은 크게 공격력, 방어력, 이동력, 공격범위(패턴이 다양하다), 지형상성을 속성으로
+가진다. 디자인 과정에서 각 스탯은 세분화 될 수 있다. 방어력은 유닛의 Facing (방향)에
+따라 6부위로 나누어서 가질 수 있다. 만약 걸칠 경우 더 강한 데미지가 들어가는 쪽으로
+결정된다.
+
+5. Turn Mechanism
+ENTROPY incorporates simultaneous turn mechanism. This mechanism makes the element
+of unit facing more important than alternating turn mechanism.
+모든 플레이어가 동시에 유닛을 움직이고 방향도 지정한다. 공격은 모든 이동이 끝난 후에
+자동으로 이루어진다. 
+
+6. Resource 
+우선 플레이어에게 어떤 자원을 제공할 것인지 생각을 해 보아야 한다.
+
+7. AI 
+멀티플레이에 앞서 싱글플레이어 playtest 를 하기 위해서는 간단한 AI가 필수적이다. 
+우선은 임의의 숫자의 Player 에 대응하는 Interface 를 짜 놓으면 이 interface 를 이용할 수 있는 AI를 만들 수 있다.
