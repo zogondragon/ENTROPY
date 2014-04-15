@@ -1,6 +1,5 @@
-android-tbs
+ENTROPY
 ===========
 
-A Turn-Based Strategy game for Android.
+A Turn-Based Strategy game for web browsers.
 
-Commit test. Eclipse with egit.
