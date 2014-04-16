@@ -6,4 +6,18 @@
     xmlns:mstns="http://tempuri.org/terrain.xsd"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
 >
+  <xs:element name="TerrainSet">
+    <xs:complexType>
+      <xs:all>
+        <xs:element name="Terrain">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" type="xs:string" />
+
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:all>
+    </xs:complexType>
+  </xs:element>
 </xs:schema>

@@ -1,1 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8" ?> 
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TerrainSet xmlns="http://tempuri.org/terrain.xsd">
+  <Terrain>
+    <Name>Desert</Name>
+  </Terrain>
+</TerrainSet>
