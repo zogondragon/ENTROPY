@@ -23,6 +23,10 @@ cold-war era military, science fiction, and dinosaur ages are incorporated in th
 To avoid copyright issues, however, we cannot use trademarks in unit name.
 
 The victory condition is not defined yet. (TODO).
+일단 각 플레이어는 기지(base) 타일을 한 개씩 가지고 있다고 하면 패배 조건은
+이 타일을 다른 플레이어의 유닛에 의해 점령당하는 것이고 승리 조건은 모든 적을 패배시키는
+것으로 정할 수 있다. 이렇게 되면 TBS에서 자주 무시되곤 하는 기동력이라는 속성을 조금 더 
+중요하게 만들 수 있다. 
 
 3. Terrain
 Hex 맵에 유닛 하나를 추가할 경우 다른 지형 하나가 random 하게 변하게 하면 재미있을 것 같다. 
@@ -32,6 +36,9 @@ Hex 맵에 유닛 하나를 추가할 경우 다른 지형 하나가 random 하게 변하게 하면 재미있
 중요한 전략적 요소로 작용하게 할 수 있어서 흥미로울 수 있다.
 지형은 여러 종류가 있어야 하고 유닛들이 어떤 지형에서 동작할 수 있는지, 어떤 무기가 어떤 지형을
 공격할 수 있는지에 대한 설정도 있어야 할 것이다.
+지형은 크게 5 계층의 레이어로 구성된다. 깊은 지하(Deep), 얕은 지하(Shallow), 지표면(Surface), 
+하늘(Sky), 우주(Space). 각 레이어에 어떤 Object 가 존재하고 어떤 속성 (ex:이동불가, 
+시선방해 등)을 가지고 있냐에 따라 다양한 Terrain 이 파생된다.
 
 4. Unit
 유닛은 크게 공격력, 방어력, 이동력, 공격범위(패턴이 다양하다), 지형상성을 속성으로

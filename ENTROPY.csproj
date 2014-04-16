@@ -42,14 +42,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GameBoard.cs" />
+    <Compile Include="MapTile.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="data\terrain.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="data\terrain.xml" />
     <Content Include="DesignDocument.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
