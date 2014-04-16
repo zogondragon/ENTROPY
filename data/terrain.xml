@@ -1,6 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <TerrainSet xmlns="http://tempuri.org/terrain.xsd">
   <Terrain>
-    <Name>Desert</Name>
+    <Name>Plain</Name>
+    <Layer>
+      <Deep>Magma</Deep>
+      <Shallow>Earth</Shallow>
+      <Surface>Air</Surface>
+      <Sky>Clear</Sky>
+      <Space>Atmosphere</Space>
+    </Layer>
+  </Terrain>
+  <Terrain>
+    <Name>Forest</Name>
   </Terrain>
 </TerrainSet>
