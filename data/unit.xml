@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<UnitSet>
+  <Unit>
+    <Name>F-15Z Space Eagle</Name>
+    <Description>This air and space superiority fighter can operate in the air and in the space. It is designed to hunt another aircraft or spacecraft down.</Description>
+    <MovementPoint>3</MovementPoint>
+  </Unit>
+  <Unit>
+    <Name>Sandworm</Name>
+    <Description>This ferocious monster from a certain desert planet can devour surface creatures at astonishing rate.</Description>
+    <AttackPoint>5</AttackPoint>
+  </Unit>
+  <Unit>
+    <Name>Yellow Submarine</Name>
+    <Description>We all live in the yellow submarine!</Description>
+    <HitPoint>9</HitPoint>
+  </Unit>
+</UnitSet>

@@ -1,16 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<TerrainSet xmlns="http://tempuri.org/terrain.xsd">
+<TerrainSet>
   <Terrain>
     <Name>Plain</Name>
-    <Layer>
-      <Deep>Magma</Deep>
-      <Shallow>Earth</Shallow>
-      <Surface>Air</Surface>
-      <Sky>Clear</Sky>
-      <Space>Atmosphere</Space>
-    </Layer>
+    
   </Terrain>
   <Terrain>
     <Name>Forest</Name>
+  </Terrain>
+  <Terrain>
+    <Name>Clear Sky</Name>
+  </Terrain>
+  <Terrain>
+    <Name>Space</Name>
+  </Terrain>
+  <Terrain>
+    <Name>Shallow Water</Name>
+  </Terrain>
+  <Terrain>
+    <Name>Deep Water</Name>
+  </Terrain>
+  <Terrain>
+    <Name>Magma</Name>
   </Terrain>
 </TerrainSet>

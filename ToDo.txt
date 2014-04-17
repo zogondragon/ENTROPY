@@ -1,0 +1,3 @@
+﻿1. XSD for terrain.xml and unit.xml
+2. Hex board representation. It should be mathematically simple and elegant.
+3. Simultaneous turn mechanism. 

@@ -55,7 +55,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="data\terrain.xml" />
+    <Content Include="data\unit.xml" />
     <Content Include="DesignDocument.txt" />
+    <Content Include="ToDo.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
